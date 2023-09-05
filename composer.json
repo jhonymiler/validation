@@ -1,0 +1,23 @@
+{
+    "name": "jhonymiler/validation",
+    "description": "Biblioteca de validação de requests",
+    "type": "library",
+    
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jhony\\Validation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jhony Miler",
+            "email": "jhonymilercoder@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/validation": "^10.21",
+        "illuminate/translation": "^10.21",
+        "illuminate/filesystem": "^10.21"
+    }
+}
